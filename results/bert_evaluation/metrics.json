@@ -1,0 +1,26 @@
+{
+    "model": "bert-base-uncased fine-tuned on Reddit dataset",
+    "device": "cuda",
+    "seed": 42,
+    "test_samples": 184,
+    "accuracy": 0.9402173913043478,
+    "balanced_accuracy": 0.9312896405919662,
+    "macro_precision": 0.9268973214285714,
+    "macro_recall": 0.9312896405919662,
+    "macro_f1": 0.9290496722403337,
+    "confusion_matrix_labels": [
+        "non_depression",
+        "depression"
+    ],
+    "confusion_matrix": [
+        [
+            50,
+            5
+        ],
+        [
+            6,
+            123
+        ]
+    ],
+    "roc_auc": 0.9811134601832276
+}
