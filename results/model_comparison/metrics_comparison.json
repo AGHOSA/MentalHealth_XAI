@@ -1,0 +1,36 @@
+[
+  {
+    "model": "baseline",
+    "accuracy": 0.9402173913043478,
+    "macro_precision": 0.9268973214285714,
+    "macro_recall": 0.9312896405919662,
+    "macro_f1": 0.9290496722403337,
+    "confusion_matrix": [
+      [
+        50,
+        5
+      ],
+      [
+        6,
+        123
+      ]
+    ]
+  },
+  {
+    "model": "optimized",
+    "accuracy": 0.9184782608695652,
+    "macro_precision": 0.9178921568627451,
+    "macro_recall": 0.8844961240310077,
+    "macro_f1": 0.8988825792269646,
+    "confusion_matrix": [
+      [
+        44,
+        11
+      ],
+      [
+        4,
+        125
+      ]
+    ]
+  }
+]

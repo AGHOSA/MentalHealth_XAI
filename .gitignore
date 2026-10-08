@@ -7,3 +7,7 @@ results/models/
 *.keras
 *.pt
 *.pth
+models/
+__pycache__/
+
+latest file from teamate/

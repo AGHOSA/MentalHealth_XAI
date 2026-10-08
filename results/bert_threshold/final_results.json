@@ -1,0 +1,51 @@
+{
+  "method": "Validation-Based Decision Threshold Optimization",
+  "base_model": "Baseline BERT",
+  "pretrained_model": "bert-base-uncased",
+  "selected_threshold": 0.32,
+  "validation_accuracy": 0.9728260869565217,
+  "validation_macro_f1": 0.9680721846260628,
+  "test_samples": 184,
+  "test_accuracy": 0.9456521739130435,
+  "test_macro_precision": 0.9351656095842142,
+  "test_macro_recall": 0.9351656095842142,
+  "test_macro_f1": 0.9351656095842142,
+  "confusion_matrix": [
+    [
+      50,
+      5
+    ],
+    [
+      5,
+      124
+    ]
+  ],
+  "classification_report": {
+    "non_depression": {
+      "precision": 0.9090909090909091,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9090909090909091,
+      "support": 55.0
+    },
+    "depression": {
+      "precision": 0.9612403100775194,
+      "recall": 0.9612403100775194,
+      "f1-score": 0.9612403100775194,
+      "support": 129.0
+    },
+    "accuracy": 0.9456521739130435,
+    "macro avg": {
+      "precision": 0.9351656095842142,
+      "recall": 0.9351656095842142,
+      "f1-score": 0.9351656095842142,
+      "support": 184.0
+    },
+    "weighted avg": {
+      "precision": 0.9456521739130435,
+      "recall": 0.9456521739130435,
+      "f1-score": 0.9456521739130435,
+      "support": 184.0
+    }
+  },
+  "test_set_used_for_threshold_selection": false
+}
